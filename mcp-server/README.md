@@ -38,9 +38,11 @@ It prints one line per check. Fix the failures yourself: the agent may explain a
 
 ## How to start it
 <!-- The exact command, so the lecturer can run your server too. -->
+npm run --silent mcp
 
 ## Session transcript
 <!-- Paste one full session: initialize, the reply, tools/list, one good tools/call, one that fails. -->
 
 ## The description experiment
 <!-- Three sentences: what you changed in the description, whether the model chose the tool differently, and why you think so. -->
+I expandend the description. The model didn't choose different tool. It will probably choose a more advanced model if the descripiton requieres deeper search or simpler model for faster reading and faster output.
